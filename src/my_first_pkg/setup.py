@@ -20,6 +20,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+	'minimal_publisher = my_first_pkg.minimal_publisher:main',
+	'minimal_subscriber = my_first_pkg.minimal_subscriber:main',
         ],
     },
 )
